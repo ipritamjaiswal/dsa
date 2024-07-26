@@ -1,7 +1,3 @@
-/*
-    Doubly Linked List implementation
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -58,23 +54,18 @@ void insert_node(Node **head, int data) {
     // If the list is empty, make the new node the head
     if (*head == NULL) {
         *head = new_node;
-        // Make the new node the tail
-        (*head)->prev = *head;
-        (*head)->next = *head;
         return;
     }
 
     // Traverse to the end of the list
     Node *current = *head;
-    while (current->next != *head) {
+    while (current->next != NULL) {
         current = current->next;
     }
 
     // Insert the new node at the end of the list
     current->next = new_node;
     new_node->prev = current;
-    new_node->next = *head;
-    (*head)->prev = new_node;
 }
 
 void display_node(Node *head) {
@@ -83,11 +74,11 @@ void display_node(Node *head) {
         printf("List is empty\n");
         return;
     }
-    while (current->next != head) {
+    while (current != NULL) {
         printf("%d ", current->data);
         current = current->next;
     }
-    printf("%d\n", current->data);
+    printf("\n");
 }
 
 void delete_node(Node **head, int key) {
@@ -100,28 +91,31 @@ void delete_node(Node **head, int key) {
     // If the head node is the key
     if (current->data == key) {
         // If the list has only one node
-        if (current->next == *head) {
+        if (current->next == NULL) {
             *head = NULL;
             free(current);
             return;
         }
         // If the list has more than one node
-        (*head)->prev->next = current->next;
-        current->next->prev = current->prev;
-        *head = current->next; // Update the head
+        *head = current->next;
+        (*head)->prev = NULL;
         free(current);
         return;
     }
 
     // Traverse to the key node
-    while (current->next != *head && current->data != key) {
+    while (current != NULL && current->data != key) {
         current = current->next;
     }
 
     // If the key node is found
-    if (current->data == key) {
-        current->prev->next = current->next;
-        current->next->prev = current->prev;
+    if (current != NULL && current->data == key) {
+        if (current->next != NULL) {
+            current->next->prev = current->prev;
+        }
+        if (current->prev != NULL) {
+            current->prev->next = current->next;
+        }
         free(current);
         return;
     }
@@ -132,10 +126,9 @@ void delete_node(Node **head, int key) {
 
 void free_node(Node *head) {
     Node *current = head;
-    while (current->next != head) {
+    while (current != NULL) {
         Node *temp = current;
         current = current->next;
         free(temp);
     }
-    free(current);
 }
