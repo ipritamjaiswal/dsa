@@ -12,3 +12,5 @@ This repository contains my works on data structures and algorithms. The code is
    - [Circular Linked List](1_Lists/circular_linked_list/cl_list.c)
 
 - Stacks
+   - [Stack](2_Stacks/stack/stack.c)
+   - [Linked Stack](2_Stacks/linked_stack/linked_stack.c)
