@@ -14,3 +14,7 @@ This repository contains my works on data structures and algorithms. The code is
 - Stacks
    - [Stack](2_Stacks/stack/stack.c)
    - [Linked Stack](2_Stacks/linked_stack/linked_stack.c)
+
+- Queues
+   - [Queue](3_Queues/queue/queue.c)
+   - [Linked Queue](3_Queues/linked_queue/linked_queue.c)
