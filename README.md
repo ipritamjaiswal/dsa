@@ -21,3 +21,4 @@ This repository contains my works on data structures and algorithms. The code is
    - [Circular Queue](3_Queues/circular_queue/circular_queue.c)
    - [Linked Circular Queue](3_Queues/linked_circular_queue/linked_circular_queue.c)
    - [Deque](3_Queues/deque/deque.c)
+   - [Linked Deque](3_Queues/linked_deque/linked_deque.c)
