@@ -94,20 +94,20 @@ void delete_node(Node **head, int key) {
 
     // Check if the head node contains the key
     if ((*head)->data == key) {
-        // Traverse to end of list
-        while (current->next != *head) {
-            current = current->next;
-        }
-
         // Update the head pointer
         if (current == *head) { // Only one node in the list
             free(*head);
             *head = NULL;
-        } else {
-            current->next = (*head)->next;
-            free(*head);
-            *head = current->next;
+            return;
         }
+
+        // Traverse to end of list
+        while (current->next != *head) {
+            current = current->next;
+        }
+        current->next = (*head)->next;
+        free(*head);
+        *head = current->next;
         return;
     }
 
