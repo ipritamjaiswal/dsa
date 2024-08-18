@@ -27,3 +27,16 @@ This repository contains my works on data structures and algorithms. The code is
 
 - Trees
    - [Binary Tree](c/4_Trees/binary_tree/binary_tree.c)
+
+
+#### DSA in C++
+
+- Array
+   - [Count even elements](cpp/1_Array/count_even_number/main.cpp)
+   - [Pairs with sum](cpp/1_Array/pairs_with_sum/main.cpp)
+   - [Array reversal 1](cpp/1_Array/array_reversal_1/main.cpp)
+   - [Array reversal 2](cpp/1_Array/array_reversal_2/main.cpp)
+
+- 2d Array
+   - [Matrix Addition](cpp/2_2d_array/matrix_addition/main.cpp)
+   - [Print Diagonal](cpp/2_2d_array/print_diagonal/main.cpp)
