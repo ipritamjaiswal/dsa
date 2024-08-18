@@ -40,3 +40,7 @@ This repository contains my works on data structures and algorithms. The code is
 - 2d Array
    - [Matrix Addition](cpp/2_2d_array/matrix_addition/main.cpp)
    - [Print Diagonal](cpp/2_2d_array/print_diagonal/main.cpp)
+
+- Functions
+   - [Count Prime](cpp/3_Functions/count_prime/main.cpp)
+   - [Sum of digits](cpp/3_Functions/sum_of_digits/main.cpp)
