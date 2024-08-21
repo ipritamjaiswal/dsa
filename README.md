@@ -44,3 +44,6 @@ This repository contains my works on data structures and algorithms. The code is
 - Functions
    - [Count Prime](cpp/3_Functions/count_prime/main.cpp)
    - [Sum of digits](cpp/3_Functions/sum_of_digits/main.cpp)
+
+- Binary Search
+   - [Binary search](cpp/4_Binary_search/binary_search/main.cpp)
