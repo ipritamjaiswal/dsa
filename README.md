@@ -47,3 +47,4 @@ This repository contains my works on data structures and algorithms. The code is
 
 - Binary Search
    - [Binary search](cpp/4_Binary_search/binary_search/main.cpp)
+   - [Recursive](cpp/4_Binary_search/recursive/main.cpp)
