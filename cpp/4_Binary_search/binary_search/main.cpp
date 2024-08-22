@@ -4,33 +4,29 @@
 
 using namespace std;
 
-int binarySearch(int array[], int size, int k) {
-    int s = 0;
-    int e = size - 1;
-
-    while (s <= e) {
-        // Compute mid
-        int mid = (s + e) / 2;
-        // Go right
-        if (array[mid] < k) {
-            s = mid + 1;
+int binarySearch(int a[], int l, int r, int k) {
+    while (l <= r) {
+        int mid = l + (r - l) / 2;
+        if (a[mid] > k) {
+            // Search Left
+            r = mid - 1;
         }
-        // Go left
-        else if (array[mid] > k) {
-            e = mid - 1;
+        else if (a[mid] < k) {
+            // Search Right
+            l = mid + 1;
         }
-        // Element fount
         else {
             return mid;
         }
     }
-
     return -1;
 }
 
 int main(void) {
-    int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-
-    cout << "Element 3 is in position " << binarySearch(array, 9, 3) + 1 << endl;
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int l = 0;
+    int r = 8;
+    int k = 3;
+    cout << "Element 3 is in position " << binarySearch(a, l, r, k) + 1 << endl;
     return 0;
 }

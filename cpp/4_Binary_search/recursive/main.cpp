@@ -8,7 +8,7 @@ int main() {
     int a[] = {1, 3, 5, 6, 7, 12, 23, 18, 22};
     int n = sizeof(a) / sizeof(a[0]);
     int k = 7; // 4
-    int index = binarySearch(a, 0, n, k);
+    int index = binarySearch(a, 0, n - 1, k);
 
     cout << "Index is " << index << endl;
     return 0;
@@ -19,7 +19,7 @@ int binarySearch(int a[], int l, int r, int k) {
         return -1;
     }
 
-    int mid = l + (r - 1)/ 2;
+    int mid = l + (r - l)/ 2;
 
     if (a[mid] > k) {
         // Search Left
