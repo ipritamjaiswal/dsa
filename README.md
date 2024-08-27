@@ -51,3 +51,4 @@ This repository contains my works on data structures and algorithms. The code is
    - [First Index](cpp/4_Binary_search/first_index/main.cpp)
    - [Last Index](cpp/4_Binary_search/last_index/main.cpp)
    - [Count Frequency](cpp/4_Binary_search/count_frequency/main.cpp)
+   - [Smallest Alphabet greater than given character](cpp/4_Binary_search/smallest_char/main.cpp)
