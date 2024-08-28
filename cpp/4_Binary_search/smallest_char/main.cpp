@@ -6,10 +6,10 @@
 
 using namespace std;
 
-char get_smallest_element(char a[], int n, int k);
+char get_smallest_element(char a[], int r, char k);
 
 int main() {
-    char a[] = {'a', 'c', 'f', 'g', 'h', 'n', 's', 't', 'v', 'z'};
+    char a[] = {'a', 'c', 'f', 'g', 'h', 'n', 's', 't', 'v', 'y'};
 
     char k = 'j'; // Answer is 'n'
 
@@ -21,6 +21,20 @@ int main() {
 }
 
 
-char get_smallest_element(char a[], int n, int k) {
-    
+char get_smallest_element(char a[], int r, char k) {
+    int l = 0;
+    char res = '?';
+
+    while (l <= r) {
+        int mid = l + (r - l) / 2;
+        if (a[mid] < k || a[mid] == k) {
+            l = mid + 1;
+        }
+        else {
+            res = a[mid];
+            r = mid - 1;
+        }
+    }
+
+    return res;
 }
