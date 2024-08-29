@@ -56,3 +56,4 @@ This repository contains my works on data structures and algorithms. The code is
 - Recursion
    - [Print Decreasing](cpp/5_Recursion/print_decreasing/main.cpp)
    - [Print Increasing](cpp/5_Recursion/print_increasing/main.cpp)
+   - [Fibbonacci series](cpp/5_Recursion/fibbonacci/main.cpp)
