@@ -1,1 +1,5 @@
-*.out
+.ccls-cache
+.git
+.idx
+.vscode
+.replit

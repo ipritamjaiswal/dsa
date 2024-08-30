@@ -28,6 +28,9 @@ This repository contains my works on data structures and algorithms. The code is
 - Trees
    - [Binary Tree](c/4_Trees/binary_tree/binary_tree.c)
 
+- Sorting
+   - [Insertion Sort](c/5_Sorting/insertion_sort/main.c)
+
 
 #### DSA in C++
 
