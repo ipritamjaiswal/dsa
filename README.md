@@ -32,6 +32,7 @@ This repository contains my works on data structures and algorithms. The code is
    - [Insertion Sort](c/5_Sorting/insertion_sort/main.c)
    - [Bubble Sort](c/5_Sorting/bubble_sort/main.c)
    - [Quick Sort](c/5_Sorting/quick_sort/main.c)
+   - [Merge Sort](c/5_Sorting/merge_sort/main.c)
 
 
 #### DSA in C++
