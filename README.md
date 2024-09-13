@@ -66,3 +66,9 @@ This repository contains my works on data structures and algorithms. The code is
 
 - Stacks
    - [Reverse string](cpp/6_Stacks/reverse_string/main.cpp)
+
+
+### Problems
+
+- Patterns
+   - [Triangle](problems/1_Patterns/main.cpp)
