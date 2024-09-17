@@ -5,8 +5,9 @@ This repository contains my works on data structures and algorithms. The code is
 
 ### Content
 
-1. Patterns
-   - [Patterns](1_Patterns/main.cpp)
+1. Practice Problems
+   - [Patterns](practice/1_Patterns/main.cpp)
+   - [Binomial Coefficient](practice/2_BinomailCoef/main.cpp)
 
 
 ### Archived
