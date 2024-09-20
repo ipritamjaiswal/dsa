@@ -8,6 +8,8 @@ This repository contains my works on data structures and algorithms. The code is
 1. Practice Problems
    - [Patterns](practice/1_Patterns/main.cpp)
    - [Binomial Coefficient](practice/2_BinomailCoef/main.cpp)
+   - [Decimal to binary](practice/3_DecimalToBinary/main.cpp)
+   - [Binary to Decimal](practice/4_BinaryToDecimal/main.ccpp)
 
 
 ### Archived
