@@ -11,7 +11,9 @@ This repository contains my works on data structures and algorithms. The code is
    - [Count even elements](1_Array/count_even_number/main.cpp)
    - [Pairs with sum](1_Array/pairs_with_sum/main.cpp)
    - [Array reversal 1](1_Array/array_reversal_1/main.cpp)
-   - [Array reversal 2](1_Array/array_reversal_2/main.cpp)
+   - [Array reversal 2 (Without addition array)](1_Array/array_reversal_2/main.cpp)
+   - [Print unique value](1_Array/print_unique/main.cpp)
+   - [Print intersection](1_Array/print_intersection/main.cpp)
 
 2. 2d Array
    - [Matrix Addition](2_2d_array/matrix_addition/main.cpp)
