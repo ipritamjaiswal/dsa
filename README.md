@@ -15,29 +15,8 @@ This repository contains my works on data structures and algorithms. The code is
    - [Print unique value](1_Array/print_unique/main.cpp)
    - [Print intersection](1_Array/print_intersection/main.cpp)
 
-2. 2d Array
-   - [Matrix Addition](2_2d_array/matrix_addition/main.cpp)
-   - [Print Diagonal](2_2d_array/print_diagonal/main.cpp)
-
-3. Functions
-   - [Count Prime](3_Functions/count_prime/main.cpp)
-   - [Sum of digits](3_Functions/sum_of_digits/main.cpp)
-
-4. Binary Search
-   - [Binary search](4_Binary_search/binary_search/main.cpp)
-   - [Recursive](4_Binary_search/recursive/main.cpp)
-   - [First Index](4_Binary_search/first_index/main.cpp)
-   - [Last Index](4_Binary_search/last_index/main.cpp)
-   - [Count Frequency](4_Binary_search/count_frequency/main.cpp)
-   - [Smallest Alphabet greater than given character](4_Binary_search/smallest_char/main.cpp)
-
-4. Recursion
-   - [Print Decreasing](5_Recursion/print_decreasing/main.cpp)
-   - [Print Increasing](5_Recursion/print_increasing/main.cpp)
-   - [Fibbonacci series](5_Recursion/fibbonacci/main.cpp)
-
-5. Stacks
-   - [Reverse string](6_Stacks/reverse_string/main.cpp)
+2. Vectors
+   - [Vector](2_Vector/vector/main.cpp)
 
 
 - Practice Problems
