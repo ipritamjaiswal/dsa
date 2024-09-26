@@ -17,7 +17,7 @@ This repository contains my works on data structures and algorithms. The code is
 
 2. Array 2
    - [Vector](2_Array-2/vector/main.cpp)
-   - [Print subarrays](2_Array-2/print_subarray/main.cpp)
+   - [Max Subarray Sum](2_Array-2/max_subarray_sum/main.cpp)
    - [Kadane's Algorithm](2_Array-2/kadanes_algorithm/main.cpp)
 
 
