@@ -7,16 +7,18 @@ This repository contains my works on data structures and algorithms. The code is
 
 #### DSA in C++
 
-1. Array
-   - [Count even elements](1_Array/count_even_number/main.cpp)
-   - [Pairs with sum](1_Array/pairs_with_sum/main.cpp)
-   - [Array reversal 1](1_Array/array_reversal_1/main.cpp)
-   - [Array reversal 2 (Without addition array)](1_Array/array_reversal_2/main.cpp)
-   - [Print unique value](1_Array/print_unique/main.cpp)
-   - [Print intersection](1_Array/print_intersection/main.cpp)
+1. Array 1
+   - [Count even elements](1_Array-1/count_even_number/main.cpp)
+   - [Pairs with sum](1_Array-1/pairs_with_sum/main.cpp)
+   - [Array reversal 1](1_Array-1/array_reversal_1/main.cpp)
+   - [Array reversal 2 (Without addition array)](1_Array-1/array_reversal_2/main.cpp)
+   - [Print unique value](1_Array-1/print_unique/main.cpp)
+   - [Print intersection](1_Array-1/print_intersection/main.cpp)
 
-2. Vectors
-   - [Vector](2_Vector/vector/main.cpp)
+2. Array 2
+   - [Vector](2_Array-2/vector/main.cpp)
+   - [Print subarrays](2_Array-2/print_subarray/main.cpp)
+   - [Kadane's Algorithm](2_Array-2/kadanes_algorithm/main.cpp)
 
 
 - Practice Problems
