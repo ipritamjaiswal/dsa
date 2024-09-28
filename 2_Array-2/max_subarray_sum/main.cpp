@@ -14,6 +14,9 @@ int main(void) {
             currSum += arr[end];
             maxSum = max(maxSum, currSum);
         }
+        if (currSum < 0) {
+            currSum = 0;
+        }
     }
 
     cout << maxSum << endl;
